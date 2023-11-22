@@ -62,7 +62,7 @@ class Program
     {
         var mailMessage = new MailMessage
         {
-            From = new MailAddress("tu_correo@mailtrap.io", "Nombre del Remitente"), // Reemplaza con la dirección proporcionada por Mailtrap
+            From = new MailAddress("tu_correo@mailtrap.io", "Nombre del Remitente"), 
             Subject = subject,
             Body = $"Se ha detectado una nueva falla: {message}",
         };
